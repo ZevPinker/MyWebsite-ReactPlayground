@@ -6,7 +6,7 @@ import './styles.css';
 function App() {
     return (
         <div>
-            <h1>Circle Builder</h1>
+            <h1>Circles!</h1>
             <p>Click the STOP button to add circles. Drag them around!</p>
             <CircleBuilder />
         </div>

@@ -8,7 +8,7 @@ function App() {
             <h1>React Playground</h1>
             <p>Choose an experiment:</p>
             <nav style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
-                <a href="/index.html">
+                <a href="/circles.html">
                     <button>Circle Builder</button>
                 </a>
                 <a href="/gravity.html">
