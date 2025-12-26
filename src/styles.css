@@ -1,0 +1,43 @@
+body {
+    background-color: antiquewhite;
+}
+button.octagon {
+    background: none;
+    color: white;
+    /* white text */
+    font-family: "Impact", sans-serif;
+    /* blocky, heavy font */
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: rgb(223, 23, 23);
+    color: white;
+    font-size: 60px;
+    -webkit-appearance: none;
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(30% 0%, 70% 0%,
+                100% 30%, 100% 70%,
+                70% 100%, 30% 100%,
+                0% 70%, 0% 30%);
+}
+
+button.hiding:focus,
+button.hiding:active {
+    outline: green;
+    box-shadow: grey;
+}
+
+.draggable-wrapper {
+    position: absolute;
+    /* take it out of the normal flow */
+    top: 20px;
+    /* vertical offset */
+    left: 30px;
+    /* horizontal offset */
+    /* optional sizing or styling */
+    width: 10px;
+    height: 40px;
+    cursor: move;
+    /* show that it can be dragged */
+}
