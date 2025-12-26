@@ -37,7 +37,7 @@ export default function CircleBuilder() {
 
     useEffect(() => {
         if (circleCount > 5) {
-            window.location.assign('/build.html');
+            window.location.assign('/index.html');
         }
     }, [circleCount]);
 
