@@ -15,7 +15,7 @@ function CircleCanvas({ circles }) {
 
 function StopButton({ onClick }) {
     return (
-        <DraggableWrapper>
+        <DraggableWrapper initial={{ x: window.innerWidth / 2 - 100, y: window.innerHeight / 2 - 100 }}>
             <button className="octagon" onClick={onClick}>
                 STOP
             </button>
