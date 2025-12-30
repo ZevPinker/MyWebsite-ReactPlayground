@@ -5,8 +5,8 @@ import './styles.css';
 
 function App() {
     return (
-        <div>
-            <h1>Arrow-Controlled Ball with Gravity</h1>
+        <div className="app-container">
+            <h1>Thats it?!</h1>
             <p>Use arrow keys to move and jump!</p>
             <GravityGame />
         </div>

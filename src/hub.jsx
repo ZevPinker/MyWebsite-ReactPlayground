@@ -20,9 +20,8 @@ function App() {
         <div className="app-container">
             <h1>Zev Pinker</h1>
             <nav className="nav-col">
-                <CubeButton href="/circles.html">Circle Builder</CubeButton>
-                <CubeButton href="/gravity.html">Gravity Game</CubeButton>
-                <CubeButton href="portfolio.html">Technical Portfolio</CubeButton>
+                <CubeButton href="/gravity.html">Creative Portfolio</CubeButton>
+                <CubeButton href="portfolio.html">Professional Portfolio</CubeButton>
             </nav>
             <footer className="social-links">
                 <a href="https://www.linkedin.com/in/zev-pinker-69a680279/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
