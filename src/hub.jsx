@@ -18,11 +18,11 @@ function CubeButton({ children, href }) {
 function App() {
   return (
     <div className="app-container">
-      <h1>React Playground</h1>
-      <p>Choose an experiment:</p>
+      <h1>Zev Pinker</h1>
       <nav className="nav-row">
         <CubeButton href="/circles.html">Circle Builder</CubeButton>
         <CubeButton href="/gravity.html">Gravity Game</CubeButton>
+        <CubeButton href="portfolio.html">My Portfolio</CubeButton>
       </nav>
     </div>
   );

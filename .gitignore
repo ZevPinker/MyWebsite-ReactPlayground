@@ -5,3 +5,6 @@ package-lock.json
 ideas.md
 .vercel
 .env*.local
+
+.DS_Store
+Archive.zip
