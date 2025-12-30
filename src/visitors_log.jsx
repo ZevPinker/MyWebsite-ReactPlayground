@@ -25,8 +25,9 @@ function VisitorForm() {
         setError(''); // Clear error when typing
     };
 
-    const handleSubmit = () => {
-        // Check required fields
+    const BACKEND_URL = 'https://your-app-name.up.railway.app'; // Replace with your actual Railway URL
+
+    const handleSubmit = async () => {
         for (const [field, isRequired] of Object.entries(required)) {
             if (isRequired && !formData[field].trim()) {
                 setError(`${field.charAt(0).toUpperCase() + field.slice(1)} is required`);
@@ -34,8 +35,21 @@ function VisitorForm() {
             }
         }
 
-        console.log('Submitted:', formData);
-        window.location.assign('creative_portfolio.html');
+        try {
+            const response = await fetch(`${BACKEND_URL}/api/submit`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                window.location.assign('creative_portfolio.html');
+            } else {
+                setError('Submission failed');
+            }
+        } catch (err) {
+            setError('Could not connect to server');
+        }
     };
 
     const handleKeyDown = (e) => {
