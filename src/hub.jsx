@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="app-container">
       <h1>Zev Pinker</h1>
-      <nav className="nav-row">
+      <nav className="nav-col">
         <CubeButton href="/circles.html">Circle Builder</CubeButton>
         <CubeButton href="/gravity.html">Gravity Game</CubeButton>
         <CubeButton href="portfolio.html">My Portfolio</CubeButton>
