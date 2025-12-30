@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { GravityGame } from './components';
-import './styles.css';
+import { GravityGame } from '../components';
+import '../styles.css';
 
 function App() {
     return (
