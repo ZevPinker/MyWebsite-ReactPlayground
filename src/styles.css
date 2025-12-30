@@ -172,6 +172,21 @@ a {
     margin-top: 1rem;
 }
 
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+.social-links a {
+    color: #666;
+    transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: #d4af37;
+}
 
 
 /* Portfolio styles */
