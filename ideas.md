@@ -23,3 +23,5 @@ professional portfolio and
 https://mywebsite-reactplayground-production.up.railway.app/api/submissions
 
 Visitors log viewable here.
+
+https://search.google.com/search-console?resource_id=https%3A%2F%2Fzevpinker.com%2F
