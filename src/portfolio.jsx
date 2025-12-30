@@ -27,7 +27,7 @@ const projects = [
     title: "Economic Dispatch Optimizer",
     description: "Implementation of analytical and numerical optimization methods for economic dispatch, including dual gradient ascent, Newton's method, and BFGS with transmission loss modeling.",
     tags: ["Python", "Optimization", "Energy", "Numerical Methods"],
-    live: "https://www.notion.so/Applied-Planning-and-Optimization-Final-Project-2cdf2c8889d980bbb4f9d687128dc5ca?pvs=94",
+      live: "https://available-act-9fb.notion.site/Applied-Planning-and-Optimization-Final-Project-2cdf2c8889d980bbb4f9d687128dc5ca",
     category: "software",
     featured: false,
   },
