@@ -22,7 +22,7 @@ function App() {
       <nav className="nav-col">
         <CubeButton href="/circles.html">Circle Builder</CubeButton>
         <CubeButton href="/gravity.html">Gravity Game</CubeButton>
-        <CubeButton href="portfolio.html">My Portfolio</CubeButton>
+        <CubeButton href="portfolio.html">Technical Portfolio</CubeButton>
       </nav>
     </div>
   );

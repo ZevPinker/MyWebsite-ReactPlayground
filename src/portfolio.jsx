@@ -95,7 +95,7 @@ function PortfolioApp() {
 
       <header className="portfolio-header">
         <div className="header-accent" />
-        <h1 className="portfolio-title">Portfolio</h1>
+        <h1 className="portfolio-title">Technical Portfolio</h1>
         <p className="portfolio-subtitle">Selected work in software engineering, energy systems, and computational research</p>
       </header>
 
