@@ -17,9 +17,9 @@ const projects = [
     id: 2,
     title: "Optimal Power Flow Research",
     description: "Capstone research exploring computational approaches to nonconvex OPF problems, investigating convex relaxations and learning-augmented optimization methods for power systems.",
-    tags: ["Optimization", "Power Systems", "Research", "Python"],
+    tags: ["in-progress", "Optimization", "Power Systems", "Research", "Python"],
     publication: "#",
-    category: "in-progress research",
+    category: "research",
     featured: true,
   },
   {
@@ -36,7 +36,6 @@ const projects = [
     title: "CT Demand Response Analysis",
     description: "IAD framework analysis of Connecticut's demand response aggregation markets, examining ISO-NE market structures and curtailment service provider regulations.",
     tags: ["Policy Analysis", "Energy Markets", "Research"],
-    publication: "#",
     category: "research",
     featured: false,
   },
@@ -44,18 +43,18 @@ const projects = [
     id: 5,
     title: "Gravity Games",
     description: "Multi-page React application featuring physics-based gravity games with interactive SVG components and smooth animations.",
-    tags: ["React", "SVG", "Games", "Physics"],
+    tags: ["in-progress", "React", "SVG", "Games", "Physics"],
     github: "https://github.com/ZevPinker/MyWebsite-ReactPlayground.git",
     live: "https://zevpinker.com/gravity.html",
-    category: "in-progress software",
+    category: "software",
     featured: false,
   },
 ];
 
 const categories = [
   { id: "all", label: "All Work" },
-  { id: ["software", "in-progress software"], label: "Software" },
-  { id: ["research", "in-progress research"], label: "Research" },
+  { id: "software",  label: "Software" },
+  { id: "research",  label: "Research" },
 ];
 
 // Simple icon components
