@@ -1,10 +1,55 @@
-.parcel-cache
-dist
-node_modules
-package-lock.json
-ideas.md
-.vercel
-.env*.local
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
+# Build and caches
+dist/
+build/
+out/
+.next/
+.parcel-cache/
+.cache/
+.vite/
+public/build/
+
+# Environment files (keep .env.example committed)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~
+
+# Deployment / platforms
+.vercel
+.now
+serverless
+.serverless
+
+# Misc
 Archive.zip
