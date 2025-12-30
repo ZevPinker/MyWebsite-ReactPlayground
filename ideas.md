@@ -17,3 +17,9 @@ https://lynnandtonic.com
 
 professional portfolio and
     a gravity game that if you win you get prompted to give name and email to see my creative portfolio
+
+
+
+https://mywebsite-reactplayground-production.up.railway.app/api/submissions
+
+Visitors log viewable here.

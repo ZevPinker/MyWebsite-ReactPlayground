@@ -43,7 +43,7 @@ function VisitorForm() {
             });
 
             if (response.ok) {
-                window.location.assign('creative_portfolio.html');
+                window.location.assign('index.html'); // TODO make creative_portfolio.html
             } else {
                 setError('Submission failed');
             }
