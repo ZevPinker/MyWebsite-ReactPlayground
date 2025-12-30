@@ -9,8 +9,7 @@ const projects = [
     title: "Energy Markets Dashboard",
     description: "Interactive visualization of ISO New England electricity market data with real-time price tracking, demand forecasting displays, and historical trend analysis using D3.js.",
     tags: ["React", "D3.js", "Energy Systems", "Data Visualization"],
-    github: "https://github.com/yourusername/energy-dashboard",
-    live: "https://energy-dashboard.vercel.app",
+    github: "https://github.com/ZevPinker/EnergyMarketsDashboard",
     category: "software",
     featured: true,
   },
@@ -20,7 +19,7 @@ const projects = [
     description: "Capstone research exploring computational approaches to nonconvex OPF problems, investigating convex relaxations and learning-augmented optimization methods for power systems.",
     tags: ["Optimization", "Power Systems", "Research", "Python"],
     publication: "#",
-    category: "research",
+    category: "in-progress research",
     featured: true,
   },
   {
@@ -28,7 +27,7 @@ const projects = [
     title: "Economic Dispatch Optimizer",
     description: "Implementation of analytical and numerical optimization methods for economic dispatch, including dual gradient ascent, Newton's method, and BFGS with transmission loss modeling.",
     tags: ["Python", "Optimization", "Energy", "Numerical Methods"],
-    github: "https://github.com/yourusername/economic-dispatch",
+    live: "https://www.notion.so/Applied-Planning-and-Optimization-Final-Project-2cdf2c8889d980bbb4f9d687128dc5ca?pvs=94",
     category: "software",
     featured: false,
   },
@@ -46,17 +45,17 @@ const projects = [
     title: "Gravity Games",
     description: "Multi-page React application featuring physics-based gravity games with interactive SVG components and smooth animations.",
     tags: ["React", "SVG", "Games", "Physics"],
-    github: "https://github.com/yourusername/gravity-games",
-    live: "https://gravity-games.vercel.app",
-    category: "software",
+    github: "https://github.com/ZevPinker/MyWebsite-ReactPlayground.git",
+    live: "https://zevpinker.com/gravity.html",
+    category: "in-progress software",
     featured: false,
   },
 ];
 
 const categories = [
   { id: "all", label: "All Work" },
-  { id: "software", label: "Software" },
-  { id: "research", label: "Research" },
+  { id: ["software", "in-progress software"], label: "Software" },
+  { id: ["research", "in-progress research"], label: "Research" },
 ];
 
 // Simple icon components
