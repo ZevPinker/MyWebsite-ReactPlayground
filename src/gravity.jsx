@@ -7,7 +7,7 @@ function App() {
     return (
         <div className="app-container">
             <h1>Thats it?!</h1>
-            <p>Use arrow keys to move and jump!</p>
+            <p>be very careful...</p>
             <GravityGame />
         </div>
     );

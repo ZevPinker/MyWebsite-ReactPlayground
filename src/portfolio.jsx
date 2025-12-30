@@ -57,7 +57,6 @@ const projects = [
         category: "software",
         featured: false,
     },
-
 ];
 
 const categories = [

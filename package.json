@@ -2,8 +2,8 @@
     "name": "react-playground",
     "version": "1.0.0",
     "scripts": {
-        "dev": "parcel index.html gravity.html circles.html portfolio.html --open",
-        "build": "parcel build index.html gravity.html circles.html portfolio.html"
+        "dev": "parcel index.html gravity.html circles.html portfolio.html visitors_log.html --open",
+        "build": "parcel build index.html gravity.html circles.html portfolio.html visitors_log.html"
     },
     "dependencies": {
         "react": "^18.2.0",

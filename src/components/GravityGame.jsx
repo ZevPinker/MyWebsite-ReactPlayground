@@ -9,7 +9,7 @@ const GAME_CONFIG = {
     moveSpeed: 5,
     bounceFactor: 0.2,
     damageThreshold: 16,      // minimum velocity to take damage
-    damageMultiplier: 2      // how much damage per unit of velocity
+    damageMultiplier: 30      // how much damage per unit of velocity
 };
 
 const PLATFORMS = [
@@ -41,13 +41,12 @@ export default function GravityGame() {
         const sound = oofSound.cloneNode();
         sound.volume = 0.5;
         sound.currentTime = 0.5
-        // sound.play().catch(err => console.log('Audio blocked:', err));
+        sound.play().catch(err => console.log('Audio blocked:', err));
     };
     const takeDamage = (amount) => {
         sayOof();
         setDamage(prev => prev + amount);
         setFlashRed(true);
-        
         setTimeout(() => setFlashRed(false), 150);
     };
 
@@ -79,6 +78,7 @@ export default function GravityGame() {
             let { x, y } = positionRef.current;
             let vy = velocityRef.current.y;
 
+        
             // Horizontal movement
             if (keysRef.current['ArrowLeft']) x -= moveSpeed;
             if (keysRef.current['ArrowRight']) x += moveSpeed;
@@ -95,6 +95,8 @@ export default function GravityGame() {
                 vy = jumpStrength;
                 inAirRef.current = true;
             }
+
+
 
             // Apply gravity
             vy += gravity;
@@ -133,6 +135,7 @@ export default function GravityGame() {
             // Update display state
             setDisplayPosition({ x, y });
 
+            
             animationRef.current = requestAnimationFrame(update);
         };
 
@@ -146,6 +149,12 @@ export default function GravityGame() {
             }
         };
     }, []);
+
+    useEffect(() => {
+        if (damage > 99) {
+            window.location.assign('/visitors_log.html');
+        }
+    }, [damage]);
 
     return (
         <div style={{ position: 'relative', display: 'inline-block' }}>
@@ -182,7 +191,7 @@ export default function GravityGame() {
                         y={plat.y}
                         width={plat.width}
                         height={plat.height}
-                        fill="#444"
+                        fill="#444444ff"
                         rx="4"
                         ry="4"
                     />

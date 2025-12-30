@@ -373,3 +373,78 @@ a {
     transform: rotate(30deg);
     pointer-events: none;
 }
+
+
+.input {
+    background-color: #383838;
+    border: 1ex solid none;
+    border-top-width: 1.7em;
+    margin: 0;
+    padding: 0;
+    color: #383838;
+    word-wrap: break-word;
+    outline: 7px solid #383838;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    transition: all 1s;
+    max-width: 190px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input:hover {
+    border-top-width: 0.2em;
+    background-color: #f1e8e8;
+}
+
+.input:focus {
+    border-top-width: 0.2em;
+    background-color: #f1e8e8;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 300px;
+    padding: 2rem;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-label {
+    color: #d4af37;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.submit-button {
+    background-color: #d4af37;
+    color: #28282d;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #28282d;
+    color: #d4af37;
+    outline: 2px solid #d4af37;
+}
+
+.form-error {
+    color: #ff6b6b;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
+}
