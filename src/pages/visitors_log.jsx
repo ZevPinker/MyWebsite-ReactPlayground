@@ -59,9 +59,12 @@ function VisitorForm() {
     };
 
     return (
+        <div className="app-container">
+            <h1>Since You Made it This Far,</h1>
+            <p>Identify Yourself</p>
         <div className="form-container" onKeyDown={handleKeyDown}>
             {error && <div className="form-error">{error}</div>}
-
+            
             <div className="form-field">
                 <label className="form-label">Name {required.name && '*'}</label>
                 <input
@@ -98,6 +101,7 @@ function VisitorForm() {
             <button className="submit-button input" onClick={handleSubmit}>
                 Submit
             </button>
+            </div>
         </div>
     );
 }
