@@ -6,8 +6,8 @@ import '../styles.css';
 function App() {
     return (
         <div className="app-container">
-            <h1>Play this game first</h1>
-            <p>be very careful...</p>
+            <h1 className='cinzel-light'>Play this game first</h1>
+            <p className="eb-garamond-light">be very careful...</p>
             <GravityGame />
         </div>
     );

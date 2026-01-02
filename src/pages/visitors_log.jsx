@@ -10,13 +10,13 @@ import '../styles.css';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBfDkaOVA8ql-RKFXMUqHUgyWmcWArFPYI",
-    authDomain: "zevpinker-com.firebaseapp.com",
-    projectId: "zevpinker-com",
-    storageBucket: "zevpinker-com.firebasestorage.app",
-    messagingSenderId: "149458939840",
-    appId: "1:149458939840:web:d5de7f3dc22dff0c9b6225",
-    measurementId: "G-E9S51562KX"
+    apiKey: process.env.PARCEL_FIREBASE_API_KEY,
+    authDomain: process.env.PARCEL_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.PARCEL_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.PARCEL_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.PARCEL_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.PARCEL_FIREBASE_APP_ID,
+    measurementId: process.env.PARCEL_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase

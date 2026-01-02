@@ -18,7 +18,7 @@ function CubeButton({ children, href }) {
 function App() {
     return (
         <div className="app-container">
-            <h1>Zev Pinker</h1>
+            <h1 className="cinzel-regular">Zev Pinker</h1>
             <nav className="nav-col">
                 <CubeButton href="/gravity.html">Creative Portfolio</CubeButton>
                 <CubeButton href="/portfolio.html">Professional Portfolio</CubeButton>
