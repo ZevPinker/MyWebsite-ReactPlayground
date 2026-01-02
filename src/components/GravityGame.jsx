@@ -9,7 +9,7 @@ const GAME_CONFIG = {
     moveSpeed: 5,
     bounceFactor: 0.2,
     damageThreshold: 16,      // minimum velocity to take damage
-    damageMultiplier: 30      // how much damage per unit of velocity
+    damageMultiplier: 10      // how much damage per unit of velocity
 };
 
 const PLATFORMS = [

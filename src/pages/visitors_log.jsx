@@ -1,6 +1,28 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import { initializeApp } from 'firebase/app';
+import { getFirestore, collection, addDoc } from 'firebase/firestore';
 import '../styles.css';
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyBfDkaOVA8ql-RKFXMUqHUgyWmcWArFPYI",
+    authDomain: "zevpinker-com.firebaseapp.com",
+    projectId: "zevpinker-com",
+    storageBucket: "zevpinker-com.firebasestorage.app",
+    messagingSenderId: "149458939840",
+    appId: "1:149458939840:web:d5de7f3dc22dff0c9b6225",
+    measurementId: "G-E9S51562KX"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
 
 function VisitorForm() {
     const [formData, setFormData] = useState({
@@ -22,10 +44,8 @@ function VisitorForm() {
             ...formData,
             [e.target.name]: e.target.value
         });
-        setError(''); // Clear error when typing
+        setError('');
     };
-
-    const BACKEND_URL = 'https://mywebsite-reactplayground-production.up.railway.app'; // Replace with your actual Railway URL
 
     const handleSubmit = async () => {
         for (const [field, isRequired] of Object.entries(required)) {
@@ -36,21 +56,16 @@ function VisitorForm() {
         }
 
         try {
-            const response = await fetch(`${BACKEND_URL}/api/submit`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(formData)
+            await addDoc(collection(db, 'visitors'), {
+                ...formData,
+                timestamp: new Date()
             });
-
-            if (response.ok) {
-                window.location.assign('index.html'); // TODO make creative_portfolio.html
-            } else {
-                setError('Submission failed');
-            }
+            window.location.assign('creative_portfolio.html');
         } catch (err) {
-            setError('Could not connect to server');
+            setError('Submission failed');
         }
     };
+
 
     const handleKeyDown = (e) => {
         if (e.key === 'Enter') {

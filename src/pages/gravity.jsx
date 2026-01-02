@@ -6,7 +6,7 @@ import '../styles.css';
 function App() {
     return (
         <div className="app-container">
-            <h1>Thats it?!</h1>
+            <h1>Play this game first</h1>
             <p>be very careful...</p>
             <GravityGame />
         </div>
