@@ -4,11 +4,25 @@ Personal website and project portfolio.
 
 ## Tech Stack
 
+**Frontend:**
 - React 18
-- Parcel (bundler)
-- Node.js / Express / SQLite (backend API)
-- Vercel (frontend hosting)
-- Railway (backend hosting)
+- React Router (navigation)
+- Styled Components 6 (CSS-in-JS)
+- Parcel 2 (bundler)
+- Google Fonts (EB Garamond, Cinzel)
+
+**Backend:**
+- Node.js / Express 5 (API server)
+- SQLite3 (database)
+- CORS (cross-origin support)
+- Dotenv (environment variables)
+
+**External Services:**
+- Firebase (backend services)
+
+**Hosting:**
+- Vercel (frontend)
+- Railway (backend)
 
 ## Structure
 ```
