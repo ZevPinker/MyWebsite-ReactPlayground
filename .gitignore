@@ -53,4 +53,5 @@ serverless
 
 # Misc
 Archive.zip
-ideas.md.env
+ideas.md
+ideas/*
