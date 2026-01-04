@@ -9,8 +9,8 @@ Project Structure - Sun Jan  4 12:29:31 EST 2026
 ./.vercel/README.txt
 ./.vercel/project.json
 ./README.md
-./assets
-./assets/.DS_Store
+.public/assets
+.public/assets/*
 ./assets/favicon
 ./assets/favicon/apple-touch-icon.png
 ./assets/favicon/favicon-96x96.png
