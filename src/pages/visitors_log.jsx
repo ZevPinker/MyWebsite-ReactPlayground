@@ -54,7 +54,6 @@ function VisitorForm() {
                 return;
             }
         }
-
         try {
             await addDoc(collection(db, 'visitors'), {
                 ...formData,

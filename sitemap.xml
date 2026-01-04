@@ -12,6 +12,10 @@
     <loc>https://zevpinker.com/gravity.html</loc>
     <priority>0.7</priority>
   </url>
+    <url>
+    <loc>https://zevpinker.com/creative_portfolio.html</loc>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://zevpinker.com/circles.html</loc>
     <priority>0.7</priority>
