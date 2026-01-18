@@ -20,8 +20,9 @@ function App() {
         <div className="app-container">
             <h1 className="cinzel-regular">Zev Pinker</h1>
             <nav className="nav-col">
-                <CubeButton href="/gravity.html">Creative Portfolio</CubeButton>
+                <CubeButton href="/gravity.html">Super Secret Portfolio</CubeButton>
                 <CubeButton href="/portfolio.html">Professional Portfolio</CubeButton>
+                <CubeButton href="/creative_portfolio.html">Creative Portfolio</CubeButton>
             </nav>
             <footer className="social-links">
                 <a href="https://www.linkedin.com/in/zev-pinker-69a680279/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
