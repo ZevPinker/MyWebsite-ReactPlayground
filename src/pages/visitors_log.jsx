@@ -59,7 +59,7 @@ function VisitorForm() {
                 ...formData,
                 timestamp: new Date()
             });
-            window.location.assign('creative_portfolio.html');
+            window.location.assign('secret-portfolio.html');
         } catch (err) {
             setError('Submission failed');
         }
