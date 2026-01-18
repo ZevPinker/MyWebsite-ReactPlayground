@@ -49,7 +49,7 @@ const projects = [
             src: pollenPoolImg,
             alt: "Urban street photography"
         },
-        link: "https://drive.google.com/drive/folders/1Nr9S34_c00i2XinDeoJzV-vzZQpHYmDd?usp=share_link",
+        link: "https://photos.app.goo.gl/KtZzD7D7znReAeNTA",
     },
     {
         id: 4,
