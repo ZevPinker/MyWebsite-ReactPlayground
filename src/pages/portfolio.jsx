@@ -47,16 +47,16 @@ const projects = [
         category: "research",
         featured: false,
     },
-    {
-        id: 6,
-        title: "Gravity Games",
-        description: "Multi-page React application featuring physics-based gravity games with interactive SVG components and smooth animations.",
-        tags: ["in-progress", "React", "SVG", "Games", "Physics"],
-        github: "https://github.com/ZevPinker/MyWebsite-ReactPlayground.git",
-        live: "https://zevpinker.com/gravity.html",
-        category: "software",
-        featured: false,
-    },
+    // {
+    //     id: 6,
+    //     title: "Gravity Games",
+    //     description: "Multi-page React application featuring physics-based gravity games with interactive SVG components and smooth animations.",
+    //     tags: ["in-progress", "React", "SVG", "Games", "Physics"],
+    //     github: "https://github.com/ZevPinker/MyWebsite-ReactPlayground.git",
+    //     live: "https://zevpinker.com/gravity.html",
+    //     category: "software",
+    //     featured: false,
+    // },
 ];
 
 const categories = [

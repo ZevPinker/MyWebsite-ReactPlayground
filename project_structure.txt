@@ -1,4 +1,4 @@
-Project Structure - Sun Jan  4 12:29:31 EST 2026
+Project Structure - Sat Jan 17 22:25:10 EST 2026
 ================================
 
 .
@@ -9,16 +9,6 @@ Project Structure - Sun Jan  4 12:29:31 EST 2026
 ./.vercel/README.txt
 ./.vercel/project.json
 ./README.md
-.public/assets
-.public/assets/*
-./assets/favicon
-./assets/favicon/apple-touch-icon.png
-./assets/favicon/favicon-96x96.png
-./assets/favicon/favicon.ico
-./assets/favicon/favicon.svg
-./assets/favicon/site.webmanifest
-./assets/favicon/web-app-manifest-192x192.png
-./assets/favicon/web-app-manifest-512x512.png
 ./backend
 ./backend/index.js
 ./backend/package-lock.json
@@ -36,6 +26,23 @@ Project Structure - Sun Jan  4 12:29:31 EST 2026
 ./package.json
 ./portfolio.html
 ./project_structure.txt
+./public
+./public/.DS_Store
+./public/assets
+./public/assets/.DS_Store
+./public/assets/favicon
+./public/assets/favicon/apple-touch-icon.png
+./public/assets/favicon/favicon-96x96.png
+./public/assets/favicon/favicon.ico
+./public/assets/favicon/favicon.svg
+./public/assets/favicon/site.webmanifest
+./public/assets/favicon/web-app-manifest-192x192.png
+./public/assets/favicon/web-app-manifest-512x512.png
+./public/assets/videos
+./public/assets/videos/creative
+./public/assets/videos/creative/cello-performance-2.mp4
+./public/assets/videos/creative/cello-performance.mp4
+./public/assets/videos/portfolio
 ./robots.txt
 ./sitemap.xml
 ./src
@@ -53,6 +60,14 @@ Project Structure - Sun Jan  4 12:29:31 EST 2026
 ./src/pages/creative.jsx
 ./src/pages/gravity.jsx
 ./src/pages/hub.jsx
+./src/pages/images
+./src/pages/images/.DS_Store
+./src/pages/images/creative
+./src/pages/images/creative/farm-cello.jpg
+./src/pages/images/creative/gesundheit.jpg
+./src/pages/images/creative/pollen-pool.jpg
+./src/pages/images/general
+./src/pages/images/portfolio
 ./src/pages/portfolio.jsx
 ./src/pages/visitors_log.jsx
 ./src/styles.css
