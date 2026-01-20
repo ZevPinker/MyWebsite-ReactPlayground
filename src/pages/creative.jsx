@@ -7,9 +7,11 @@ import gesundheitImg from 'url:./images/creative/gesundheit.jpg';
 import pollenPoolImg from 'url:./images/creative/pollen-pool.jpg';
 import farmCelloImg from 'url:./images/creative/farm-cello.jpg';
 
+
 // Import videos using url: prefix
 import celloVideo from 'url:./videos/creative/cello-performance.mp4';
 import celloVideo2 from 'url:./videos/creative/cello-performance-2.mp4'
+import waitingRoomVideo from 'url:./videos/creative/waiting_room.mp4'
 
 const projects = [
     {
@@ -19,8 +21,9 @@ const projects = [
         category: "music",
         tags: ["Music", "Alt-Rock"],
         media: {
-            type: "image",
-            src: gesundheitImg,
+            type: "video",
+            src: waitingRoomVideo,
+            poster: gesundheitImg,
             alt: "Band"
         },
         featured: false
@@ -40,8 +43,8 @@ const projects = [
     },
     {
         id: 3,
-        title: "Photography",
-        description: "Street photography capturing city life",
+        title: "Photographs",
+        description: "Photography and images of my creation",
         category: "visual",
         tags: ["Photography"],
         media: {
