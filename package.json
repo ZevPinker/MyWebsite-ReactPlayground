@@ -2,8 +2,8 @@
     "name": "react-playground",
     "version": "1.0.0",
    "scripts": {
-    "dev": "parcel index.html gravity.html circles.html portfolio.html visitors_log.html creative_portfolio.html secret-portfolio.html --open",
-    "build": "parcel build index.html gravity.html circles.html portfolio.html visitors_log.html creative_portfolio.html secret-portfolio.html && cp sitemap.xml robots.txt google19b96f842a2f903c.html dist/"
+    "dev": "parcel index.html gravity.html circles.html portfolio.html visitors_log.html creative_portfolio.html secret-portfolio.html resume.html --open",
+    "build": "parcel build index.html gravity.html circles.html portfolio.html visitors_log.html creative_portfolio.html secret-portfolio.html resume.html && cp sitemap.xml robots.txt google19b96f842a2f903c.html dist/"
 },
     "dependencies": {
         "dotenv": "^17.2.3",
